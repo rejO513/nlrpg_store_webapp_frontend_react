@@ -1,0 +1,12 @@
+.nav_menu {
+    max-height: 40px;
+}
+
+.nav_menu_segment {
+    border-radius: 50%;
+}
+
+.nav_menu_item {
+    margin-top: auto;
+    margin-bottom: auto;
+}

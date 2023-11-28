@@ -1,0 +1,38 @@
+.background {
+    /* background-color: #271e27; */
+    background-image: url('../../assets/images/village_night.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.view {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 900px;
+    overflow: auto; /* 内容がオーバーフローした場合にスクロールバーを表示 */
+    /* border: 1px solid #ccc; /* 枠線（見た目の確認用） */
+}
+
+@media (max-width: 900px){
+    .view {
+        width: 100%;
+    }
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.capitalize-first-letter::first-letter {
+    text-transform: uppercase;
+}
