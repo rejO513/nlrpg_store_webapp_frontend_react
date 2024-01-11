@@ -6,7 +6,7 @@ import axios from "axios";
 export default function SaveButton ({state, setStateItem, inputValue}){
 
     const navigate = useNavigate();
-    const baseURL = process.env.BACKEND_BASEURL;
+    const baseURL = process.env.REACT_APP_BACKEND_BASE_URL;
 
     // ユーザー情報を更新
     const updateUser = async (email, username, discord_id, minecraft_accounts, image_url) => {

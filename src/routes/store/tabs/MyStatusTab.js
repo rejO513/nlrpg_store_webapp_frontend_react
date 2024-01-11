@@ -7,7 +7,7 @@ import '../Store.css'
 import SaveButton from '../../../components/SaveButton';
 
 import { Routes, Route, useNavigate } from 'react-router-dom';
-import { EDITION_SELECT, TEXT } from '../../../localConstant';
+import { EDITION_SELECT, TEXT } from '../../../LocalConstant';
 
 // ユーザーステータスのタブ
 function MyStatusTab({state, setStateItem}){

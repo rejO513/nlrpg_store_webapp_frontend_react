@@ -11,7 +11,7 @@ import "./Button.css"
 const googleClientId = process.env.REACT_APP_GOOGLE_CLIENT_ID;
 const drfClientId = process.env.REACT_APP_DRF_CLIENT_ID;
 const drfClientSecret = process.env.REACT_APP_DRF_CLIENT_SECRET;
-const baseURL = process.env.BACKEND_BASE_URL;
+const baseURL = process.env.REACT_APP_BACKEND_BASE_URL;
 
 export default function LoginHandler({state, setStateItem}){
 	
@@ -26,7 +26,7 @@ export default function LoginHandler({state, setStateItem}){
 				return tokenInfo
 			})
 			.catch((err) => {
-				console.log("Error Verify Token", err)
+				console.log("Error Verify Code", err)
 				const error_code = verifyErrorCode();
 				return { error_code };
 			})
