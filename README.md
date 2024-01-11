@@ -26,18 +26,18 @@
 - React Router DOM
 - axios
 
-## /src
-### /
+### /src
+#### /
 - App.js - ページ全体の管理
 - Error.js - エラーメッセージの定数宣言
 - LocalConstant.js - 定数宣言
 
-### /routes/store
+#### /routes/store
 - Store.js - ストアページ
 - StoreSections.js - ストアページの本文
 - tabs/MyStatusTab.js - ストアページのステータスタブ
 
-### /components
+#### /components
 - GoogleButton.js - 「Googleでログイン/登録」ボタン
 - LoginHandler.js - ログイン画面の表示および制御
 - LogoutButton.js - ログアウトボタン
